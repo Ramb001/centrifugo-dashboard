@@ -34,10 +34,10 @@ Before running the project, ensure you have the following installed:
   ./pocketbase serve
   ```
 - Log in to the Pocketbase admin panel:
-    Visit: http://127.0.0.1:8090/_/#/
-    Use the following credentials:
-      Email: admin@admin.admin
-      Password: adminadmin
+    - Visit: http://127.0.0.1:8090/_/#/
+    - Use the following credentials:
+      - Email: admin@admin.admin
+      - Password: adminadmin
 
 ### 5. Add `.env` Variables
 - Create a `.env` file in your project root directory if it doesn't already exist.
