@@ -22,7 +22,6 @@ async def onboarding(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
 
         await CENTRIFUGO.subscribe(client, "general", user["jwt"], {})
-        # await CENTRIFUGO.publish_message("general", {"content": "test content"}, client)
 
     await update.message.reply_text(
         BotReplies.ON_BOARDING,
